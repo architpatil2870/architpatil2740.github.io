@@ -1,0 +1,32 @@
+else
+if($_POST['sbm']=="display")
+{
+$sql="select * from menu";
+echo "<center><table border=1>";
+echo "<caption>menu information</caption>";
+echo "<tr>";
+echo "<th>menuid</th>";
+echo "<th>type1</th>";
+echo "<th>subtype</th>";
+echo "<th>type2</th>";
+echo "<th>description</th>";
+echo "<th>rate</th>";
+echo "<th>foodtype</th>";
+echo "<th>GST Rate</th>";
+echo "<th>images</th>";
+echo "</tr>";
+$result=mysql_query($sql,$cn);
+while($row=mysql_fetch_array($result))
+{
+echo "<tr>";
+echo "<td>$row[0]</td>";
+echo "<td>$row[1]</td>";
+echo "<td>$row[2]</td>";
+echo "<td>$row[3]</td>";
+echo "<td>$row[4]</td>";
+echo "<td>$row[5]</td>";
+echo "<td>$row[6]</td>";
+echo "<td>$row[7]</td>";
+echo "<td>$row[8]</td>";
+echo "</tr>";
+}
