@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png);
+}
+
+header{
+    width: 100%;
+    background-color: aqua;
+padding: 8px;
+}
+
+.navbar h1{
+    font-size: 20px;
+    margin: auto;
+}
+
+
+.navbar{
+    width: 1500px;
+ margin: auto;
+    background-color: aqua;
+    border: 3px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 200px;
+}
+.navbar ul li a{
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.about{
+    width: 100%;
+}
+
+.row h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.row  p{
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    color: gold;
+
+}
+
+#ll{
+    background-color: saddlebrown;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10rem;
+    border-radius: 33px;
+    padding: 2rem;
+    border: 1px solid red;
+    border :1px royalblue;
+}
+
+.img img{
+    float: right;
+    width: 30rem;
+    height: 20rem;
+    margin-right: 20px;
+}
